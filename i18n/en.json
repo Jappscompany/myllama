@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama Chat Client",
+    "description": "A lightweight chat client for your own Ollama servers. Save conversations by room and keep control of your models."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Privacy Policy"
+  },
+  "hero": {
+    "headline": "Chat with your own Ollama servers.",
+    "subheadline": "Register your Ollama endpoint, talk to your models, and revisit conversations later — organized by chat room.",
+    "primaryCta": "Read Privacy Policy",
+    "secondaryCta": "View Features"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Bring your own Ollama URL",
+        "desc": "Connect to the Ollama server you already run—local, remote, or on your LAN."
+      },
+      {
+        "title": "Chat rooms & history",
+        "desc": "Conversations are saved by room so you can quickly review or continue where you left off."
+      },
+      {
+        "title": "Multiple endpoints",
+        "desc": "Store more than one server address and switch anytime."
+      },
+      {
+        "title": "Clean, focused UI",
+        "desc": "Minimal interface designed for productivity."
+      }
+    ],
+    "howTitle": "How it works",
+    "howSteps": [
+      "Add your Ollama server address (URL).",
+      "Start a chat and choose your model on the server.",
+      "MyLLama saves your messages per chat room for later review."
+    ],
+    "footerNote": "MyLLama is an independent client app. Ollama and model availability depend on your server configuration."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

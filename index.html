@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" id="meta-description" />
+  <title id="meta-title">MyLLama</title>
+  <style>
+    :root{
+      --bg:#0b0f19;
+      --panel:#101827;
+      --text:#e8eefc;
+      --muted:#a9b7d0;
+      --accent:#6aa6ff;
+      --border:rgba(255,255,255,0.08);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+      --max: 980px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f7f9ff;
+        --panel:#ffffff;
+        --text:#0b1220;
+        --muted:#4b5b78;
+        --accent:#1d66ff;
+        --border:rgba(10,20,40,0.10);
+        --shadow: 0 10px 30px rgba(10,20,40,.10);
+      }
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1000px 600px at 20% -10%, rgba(106,166,255,.22), transparent 55%),
+                  radial-gradient(900px 500px at 90% 0%, rgba(140,255,210,.12), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.5;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--max); margin:0 auto; padding:28px 18px 60px}
+    .nav{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:14px; padding:14px 16px; border:1px solid var(--border);
+      border-radius:var(--radius); background:rgba(16,24,39,.65);
+      backdrop-filter: blur(10px); box-shadow: var(--shadow);
+    }
+    @media (prefers-color-scheme: light){
+      .nav{background:rgba(255,255,255,.75)}
+    }
+    .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px}
+    .logo{
+      width:34px; height:34px; border-radius:10px;
+      background: linear-gradient(135deg, rgba(106,166,255,.9), rgba(140,255,210,.7));
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.25);
+    }
+    .nav-right{display:flex; align-items:center; gap:10px}
+    select{
+      background:transparent; color:var(--text);
+      border:1px solid var(--border); border-radius:12px;
+      padding:8px 10px; outline:none;
+    }
+    option{color:#000}
+    .hero{
+      margin-top:18px;
+      padding:34px 18px;
+      border:1px solid var(--border);
+      border-radius:calc(var(--radius) + 6px);
+      background: rgba(16,24,39,.65);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+    }
+    @media (prefers-color-scheme: light){
+      .hero{background:rgba(255,255,255,.78)}
+    }
+    h1{font-size:40px; line-height:1.12; margin:0 0 10px}
+    p.lead{margin:0 0 18px; color:var(--muted); font-size:18px; max-width: 70ch}
+    .cta{display:flex; gap:12px; flex-wrap:wrap; margin-top:10px}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:10px 14px; border-radius:14px;
+      border:1px solid var(--border);
+      font-weight:650;
+      background: transparent;
+      color:var(--text);
+    }
+    .btn.primary{
+      border-color: rgba(106,166,255,.45);
+      background: rgba(106,166,255,.15);
+    }
+    .grid{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:14px;
+    }
+    .card{
+      grid-column: span 6;
+      padding:16px;
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(16,24,39,.55);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      min-height: 120px;
+    }
+    @media (prefers-color-scheme: light){
+      .card{background:rgba(255,255,255,.70)}
+    }
+    @media (max-width: 720px){
+      h1{font-size:32px}
+      .card{grid-column: span 12}
+    }
+    .card h3{margin:0 0 6px; font-size:18px}
+    .card p{margin:0; color:var(--muted)}
+    .section{
+      margin-top:18px;
+      padding:18px;
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(16,24,39,.45);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+    }
+    @media (prefers-color-scheme: light){
+      .section{background:rgba(255,255,255,.65)}
+    }
+    .section h2{margin:0 0 10px; font-size:22px}
+    ol{margin:0; padding-left:20px}
+    li{margin:6px 0; color:var(--muted)}
+    footer{
+      margin-top:18px;
+      display:flex; justify-content:space-between; align-items:center;
+      gap:10px; flex-wrap:wrap;
+      color:var(--muted);
+      padding: 12px 4px;
+    }
+    .small{font-size:13px; color:var(--muted)}
+    .links{display:flex; gap:12px; align-items:center}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span id="nav-brand">MyLLama</span>
+      </div>
+      <div class="nav-right">
+        <div class="links">
+          <a href="index.html" id="nav-home">Home</a>
+          <a href="privacy.html" id="nav-privacy">Privacy Policy</a>
+        </div>
+        <label class="small" for="lang" id="i18n-label">Language</label>
+        <select id="lang" aria-label="Language">
+          <option value="en" selected>English</option>
+        </select>
+      </div>
+    </div>
+
+    <section class="hero">
+      <h1 id="hero-headline">Chat with your own Ollama servers.</h1>
+      <p class="lead" id="hero-subheadline">
+        Register your Ollama endpoint, talk to your models, and revisit conversations later — organized by chat room.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="privacy.html" id="hero-primary">Read Privacy Policy</a>
+        <a class="btn" href="#features" id="hero-secondary">View Features</a>
+      </div>
+      <p class="small" style="margin-top:14px" id="footer-note">
+        MyLLama is an independent client app. Ollama and model availability depend on your server configuration.
+      </p>
+    </section>
+
+    <section id="features" class="section" style="margin-top:18px">
+      <h2 id="features-title">Features</h2>
+      <div class="grid" id="features-grid">
+        <!-- injected -->
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 id="how-title">How it works</h2>
+      <ol id="how-steps">
+        <!-- injected -->
+      </ol>
+    </section>
+
+    <footer>
+      <div id="copyright">© 2026 MyLLama. All rights reserved.</div>
+      <div class="links">
+        <a href="privacy.html" id="footer-privacy">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const DEFAULT_LANG = "en";
+
+    async function loadLang(lang){
+      const res = await fetch(`i18n/${lang}.json`, {cache: "no-store"});
+      if(!res.ok) throw new Error("Failed to load i18n JSON");
+      return await res.json();
+    }
+
+    function setText(id, text){
+      const el = document.getElementById(id);
+      if(el) el.textContent = text;
+    }
+
+    function applyI18n(data){
+      // meta
+      document.documentElement.lang = "en";
+      setText("meta-title", data.meta?.title || "MyLLama");
+      document.title = data.meta?.title || "MyLLama";
+      const md = document.getElementById("meta-description");
+      if(md) md.setAttribute("content", data.meta?.description || "");
+
+      // nav + hero
+      setText("nav-brand", data.nav?.brand || "MyLLama");
+      setText("nav-home", data.nav?.home || "Home");
+      setText("nav-privacy", data.nav?.privacy || "Privacy Policy");
+
+      setText("hero-headline", data.hero?.headline || "");
+      setText("hero-subheadline", data.hero?.subheadline || "");
+      setText("hero-primary", data.hero?.primaryCta || "");
+      setText("hero-secondary", data.hero?.secondaryCta || "");
+
+      setText("features-title", data.sections?.featuresTitle || "Features");
+
+      // features cards
+      const grid = document.getElementById("features-grid");
+      grid.innerHTML = "";
+      (data.sections?.features || []).forEach(f => {
+        const card = document.createElement("div");
+        card.className = "card";
+        const h = document.createElement("h3");
+        h.textContent = f.title || "";
+        const p = document.createElement("p");
+        p.textContent = f.desc || "";
+        card.appendChild(h);
+        card.appendChild(p);
+        grid.appendChild(card);
+      });
+
+      setText("how-title", data.sections?.howTitle || "How it works");
+      const steps = document.getElementById("how-steps");
+      steps.innerHTML = "";
+      (data.sections?.howSteps || []).forEach(s => {
+        const li = document.createElement("li");
+        li.textContent = s;
+        steps.appendChild(li);
+      });
+
+      setText("footer-note", data.sections?.footerNote || "");
+
+      const year = new Date().getFullYear();
+      const copyright = (data.footer?.copyright || "").replace("{year}", year);
+      setText("copyright", copyright || `© ${year} MyLLama. All rights reserved.`);
+      setText("footer-privacy", data.footer?.links?.privacy || "Privacy Policy");
+
+      setText("i18n-label", data.i18n?.label || "Language");
+      // language option label (only en exists for now)
+      const langSelect = document.getElementById("lang");
+      const opt = langSelect.querySelector('option[value="en"]');
+      if(opt) opt.textContent = data.i18n?.en || "English";
+    }
+
+    (async () => {
+      const lang = DEFAULT_LANG;
+      try{
+        const data = await loadLang(lang);
+        applyI18n(data);
+      } catch(e){
+        console.error(e);
+      }
+    })();
+  </script>
+</body>
+</html>

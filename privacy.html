@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyLLama — Privacy Policy</title>
+  <style>
+    :root{
+      --bg:#0b0f19;
+      --panel:#101827;
+      --text:#e8eefc;
+      --muted:#a9b7d0;
+      --accent:#6aa6ff;
+      --border:rgba(255,255,255,0.08);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+      --max: 920px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f7f9ff;
+        --panel:#ffffff;
+        --text:#0b1220;
+        --muted:#4b5b78;
+        --accent:#1d66ff;
+        --border:rgba(10,20,40,0.10);
+        --shadow: 0 10px 30px rgba(10,20,40,.10);
+      }
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial;
+      background: radial-gradient(1000px 600px at 20% -10%, rgba(106,166,255,.22), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{max-width:var(--max); margin:0 auto; padding:28px 18px 60px}
+    .panel{
+      padding:20px 18px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      background: rgba(16,24,39,.65);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+    }
+    @media (prefers-color-scheme: light){
+      .panel{background:rgba(255,255,255,.78)}
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    h1{margin:0 0 8px; font-size:28px}
+    h2{margin:18px 0 8px; font-size:18px}
+    p{margin:8px 0; color:var(--muted)}
+    ul{margin:8px 0; padding-left:20px}
+    li{margin:6px 0; color:var(--muted)}
+    .topbar{display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:14px}
+    .tag{font-size:12px; color:var(--muted); border:1px solid var(--border); padding:6px 10px; border-radius:999px}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <a href="index.html">← Back to Home</a>
+      <div class="tag">Last updated: 2026-01-16</div>
+    </div>
+
+    <div class="panel">
+      <h1>Privacy Policy</h1>
+      <p class="muted">This Privacy Policy explains how MyLLama handles information when you use the app.</p>
+
+      <h2>Summary</h2>
+      <ul>
+        <li>MyLLama is a chat client that connects to Ollama servers you configure.</li>
+        <li>Your messages are sent to the Ollama server address you provide, in order to generate responses.</li>
+        <li>Chat history may be stored on your device so you can review conversations by chat room.</li>
+      </ul>
+
+      <h2>Information We Collect</h2>
+      <p>MyLLama does not require account registration. The app may store the following locally on your device:</p>
+      <ul>
+        <li>Ollama server addresses you add (e.g., URL/host and port)</li>
+        <li>Chat room titles and chat messages (conversation history)</li>
+        <li>Basic app settings</li>
+      </ul>
+
+      <h2>How Your Data Is Used</h2>
+      <ul>
+        <li>To connect to your Ollama server and send your prompts/messages.</li>
+        <li>To display responses returned by your server.</li>
+        <li>To keep conversation history organized by chat room on your device.</li>
+      </ul>
+
+      <h2>Data Sharing</h2>
+      <p>MyLLama does not sell your data. Messages are transmitted to the Ollama server you configure. If your server is hosted by a third party or on a remote machine, that server operator may have access to the data you send.</p>
+
+      <h2>Data Storage & Retention</h2>
+      <p>Conversation history and server addresses are stored locally on your device unless you remove them. You can delete chat rooms to remove stored messages within the app.</p>
+
+      <h2>Security</h2>
+      <p>Security depends on how your Ollama server is deployed and protected. If you connect to a remote server, consider using trusted networks, firewalls, and secure transport where applicable.</p>
+
+      <h2>Children’s Privacy</h2>
+      <p>MyLLama is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>We may update this policy from time to time. The “Last updated” date at the top indicates the latest revision.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions about this policy, please contact the developer via the support channel listed on the App Store product page.</p>
+    </div>
+  </div>
+</body>
+</html>
