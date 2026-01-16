@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama チャットクライアント",
+    "description": "独自の Ollama サーバー用の軽量チャットクライアントです。会話をルーム別に保存し、モデルを制御できます。"
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "プライバシーポリシー"
+  },
+  "hero": {
+    "headline": "独自の Ollama サーバーとチャットしましょう。",
+    "subheadline": "Ollama エンドポイントを登録し、モデルと対話し、チャットルームごとに整理された会話を後で再開します。",
+    "primaryCta": "プライバシーポリシーを読む",
+    "secondaryCta": "機能を見る"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "独自の Ollama URL を使用",
+        "desc": "すでに実行している Ollama サーバー（ローカル、リモート、または LAN 上）に接続します。"
+      },
+      {
+        "title": "チャットルームと履歴",
+        "desc": "会話はルームごとに保存されるため、すばやく確認したり、中断したところから再開したりできます。"
+      },
+      {
+        "title": "複数のエンドポイント",
+        "desc": "複数のサーバーアドレスを保存し、いつでも切り替えることができます。"
+      },
+      {
+        "title": "シンプルで集中した UI",
+        "desc": "生産性のために設計された最小限のインターフェースです。"
+      }
+    ],
+    "howTitle": "仕組み",
+    "howSteps": [
+      "Ollama サーバーのアドレス (URL) を追加します。",
+      "チャットを開始し、サーバー上のモデルを選択します。",
+      "MyLLama は、後で確認するためにメッセージをチャットルームごとに保存します。"
+    ],
+    "footerNote": "MyLLama は独立したクライアントアプリです。Ollama とモデルの可用性は、サーバー構成によって異なります。"
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. All rights reserved.",
+    "links": {
+      "privacy": "プライバシーポリシー"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

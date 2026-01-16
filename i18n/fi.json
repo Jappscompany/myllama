@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama-keskusteluasiakas",
+    "description": "Kevyt keskusteluasiakas omille Ollama-palvelimillesi. Tallenna keskustelut huoneittain ja hallitse malleja."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Tietosuojakäytäntö"
+  },
+  "hero": {
+    "headline": "Keskustele omien Ollama-palvelimiesi kanssa.",
+    "subheadline": "Rekisteröi Ollama-päätepiste, keskustele malliesi kanssa ja palaa keskusteluihin myöhemmin — järjestettynä keskusteluhuoneittain.",
+    "primaryCta": "Lue tietosuojakäytäntö",
+    "secondaryCta": "Katso ominaisuudet"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Oma Ollama-URL",
+        "desc": "Yhdistä Ollama-palvelimeen, jota jo käytät — paikallisesti, etänä tai lähiverkossasi."
+      },
+      {
+        "title": "Keskusteluhuoneet ja historia",
+        "desc": "Keskustelut tallennetaan huoneittain, jotta voit nopeasti tarkistaa tai jatkaa siitä, mihin jäit."
+      },
+      {
+        "title": "Useita päätepisteitä",
+        "desc": "Tallenna useampi kuin yksi palvelinosoite ja vaihda milloin tahansa."
+      },
+      {
+        "title": "Selkeä ja keskittynyt käyttöliittymä",
+        "desc": "Minimaalinen käyttöliittymä, joka on suunniteltu tuottavuutta varten."
+      }
+    ],
+    "howTitle": "Miten se toimii",
+    "howSteps": [
+      "Lisää Ollama-palvelimen osoite (URL).",
+      "Aloita keskustelu ja valitse malli palvelimelta.",
+      "MyLLama tallentaa viestisi keskusteluhuoneittain myöhempää tarkastelua varten."
+    ],
+    "footerNote": "MyLLama on itsenäinen asiakasohjelma. Ollaman ja mallien saatavuus riippuu palvelinkonfiguraatiostasi."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Kaikki oikeudet pidätetään.",
+    "links": {
+      "privacy": "Tietosuojakäytäntö"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

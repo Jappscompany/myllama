@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama – Ollama Chat-Client",
+    "description": "Ein leichtgewichtiger Chat-Client für Ihre eigenen Ollama-Server. Speichern Sie Konversationen nach Räumen und behalten Sie die Kontrolle über Ihre Modelle."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Datenschutzrichtlinie"
+  },
+  "hero": {
+    "headline": "Chatten Sie mit Ihren eigenen Ollama-Servern.",
+    "subheadline": "Registrieren Sie Ihren Ollama-Endpunkt, sprechen Sie mit Ihren Modellen und kehren Sie später zu Konversationen zurück – organisiert nach Chatraum.",
+    "primaryCta": "Datenschutzrichtlinie lesen",
+    "secondaryCta": "Funktionen anzeigen"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Bringen Sie Ihre eigene Ollama-URL mit",
+        "desc": "Verbinden Sie sich mit dem Ollama-Server, den Sie bereits lokal, remote oder in Ihrem LAN betreiben."
+      },
+      {
+        "title": "Chaträume & Verlauf",
+        "desc": "Konversationen werden nach Raum gespeichert, sodass Sie sie schnell überprüfen oder dort fortsetzen können, wo Sie aufgehört haben."
+      },
+      {
+        "title": "Mehrere Endpunkte",
+        "desc": "Speichern Sie mehr als eine Serveradresse und wechseln Sie jederzeit."
+      },
+      {
+        "title": "Saubere, fokussierte Benutzeroberfläche",
+        "desc": "Minimalistische Benutzeroberfläche für Produktivität."
+      }
+    ],
+    "howTitle": "Wie es funktioniert",
+    "howSteps": [
+      "Fügen Sie die Adresse Ihres Ollama-Servers (URL) hinzu.",
+      "Starten Sie einen Chat und wählen Sie Ihr Modell auf dem Server aus.",
+      "MyLLama speichert Ihre Nachrichten pro Chatraum zur späteren Überprüfung."
+    ],
+    "footerNote": "MyLLama ist eine unabhängige Client-App. Die Verfügbarkeit von Ollama und Modellen hängt von Ihrer Serverkonfiguration ab."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Alle Rechte vorbehalten.",
+    "links": {
+      "privacy": "Datenschutzrichtlinie"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

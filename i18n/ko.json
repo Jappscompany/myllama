@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama 채팅 클라이언트",
+    "description": "자신의 Ollama 서버를 위한 가벼운 채팅 클라이언트입니다. 대화를 방으로 저장하고 모델을 제어하십시오."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "개인 정보 보호 정책"
+  },
+  "hero": {
+    "headline": "자신의 Ollama 서버와 채팅하십시오.",
+    "subheadline": "Ollama 엔드포인트를 등록하고, 모델과 대화하고, 나중에 채팅방으로 정리된 대화를 다시 방문하십시오.",
+    "primaryCta": "개인 정보 보호 정책 읽기",
+    "secondaryCta": "기능 보기"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "자신의 Ollama URL 가져오기",
+        "desc": "이미 실행 중인 Ollama 서버(로컬, 원격 또는 LAN)에 연결합니다."
+      },
+      {
+        "title": "채팅방 및 기록",
+        "desc": "대화는 방으로 저장되므로 빠르게 검토하거나 중단한 부분부터 계속할 수 있습니다."
+      },
+      {
+        "title": "다중 엔드포인트",
+        "desc": "하나 이상의 서버 주소를 저장하고 언제든지 전환하십시오."
+      },
+      {
+        "title": "깔끔하고 집중된 UI",
+        "desc": "생산성을 위한 미니멀 인터페이스입니다."
+      }
+    ],
+    "howTitle": "작동 방식",
+    "howSteps": [
+      "Ollama 서버 주소(URL)를 추가하십시오.",
+      "채팅을 시작하고 서버의 모델을 선택하십시오.",
+      "MyLLama는 나중에 검토하기 위해 각 채팅방의 메시지를 저장합니다."
+    ],
+    "footerNote": "MyLLama는 독립적인 클라이언트 앱입니다. Ollama 및 모델 가용성은 서버 구성에 따라 다릅니다."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. 판권 모두 소유.",
+    "links": {
+      "privacy": "개인 정보 보호 정책"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

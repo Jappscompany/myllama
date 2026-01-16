@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Cliente de Chat Ollama",
+    "description": "Um cliente de chat leve para os seus próprios servidores Ollama. Guarde as conversas por sala e mantenha o controlo dos seus modelos."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Política de Privacidade"
+  },
+  "hero": {
+    "headline": "Converse com os seus próprios servidores Ollama.",
+    "subheadline": "Registe o seu ponto final Ollama, converse com os seus modelos e reveja as conversas mais tarde — organizadas por sala de chat.",
+    "primaryCta": "Leia a Política de Privacidade",
+    "secondaryCta": "Ver Funcionalidades"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Traga o seu próprio URL Ollama",
+        "desc": "Ligue-se ao servidor Ollama que já está a executar — local, remoto ou na sua LAN."
+      },
+      {
+        "title": "Salas de chat e histórico",
+        "desc": "As conversas são guardadas por sala para que possa rever rapidamente ou continuar onde parou."
+      },
+      {
+        "title": "Múltiplos pontos finais",
+        "desc": "Guarde mais do que um endereço de servidor e alterne a qualquer momento."
+      },
+      {
+        "title": "Interface de utilizador limpa e focada",
+        "desc": "Interface minimalista concebida para a produtividade."
+      }
+    ],
+    "howTitle": "Como funciona",
+    "howSteps": [
+      "Adicione o endereço do seu servidor Ollama (URL).",
+      "Inicie um chat e escolha o seu modelo no servidor.",
+      "MyLLama guarda as suas mensagens por sala de chat para revisão posterior."
+    ],
+    "footerNote": "MyLLama é uma aplicação cliente independente. A disponibilidade do Ollama e do modelo depende da sua configuração de servidor."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Todos os direitos reservados.",
+    "links": {
+      "privacy": "Política de Privacidade"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

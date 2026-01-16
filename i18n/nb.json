@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama Chat-klient",
+    "description": "En lett chat-klient for dine egne Ollama-servere. Lagre samtaler etter rom og behold kontrollen over modellene dine."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Personvernpolicy"
+  },
+  "hero": {
+    "headline": "Chat med dine egne Ollama-servere.",
+    "subheadline": "Registrer din Ollama-endepunkt, snakk med modellene dine og se over samtalene senere — organisert etter chatrom.",
+    "primaryCta": "Les personvernpolicyen",
+    "secondaryCta": "Se funksjoner"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Ta med din egen Ollama-URL",
+        "desc": "Koble til Ollama-serveren du allerede kjører—lokalt, eksternt eller på ditt LAN."
+      },
+      {
+        "title": "Chatrom og historikk",
+        "desc": "Samtaler lagres etter rom, slik at du raskt kan se over eller fortsette der du slapp."
+      },
+      {
+        "title": "Flere endepunkter",
+        "desc": "Lagre mer enn én serveradresse og bytt når som helst."
+      },
+      {
+        "title": "Rent, fokusert brukergrensesnitt",
+        "desc": "Minimalt grensesnitt designet for produktivitet."
+      }
+    ],
+    "howTitle": "Slik fungerer det",
+    "howSteps": [
+      "Legg til din Ollama-serveradresse (URL).",
+      "Start en chat og velg modellen din på serveren.",
+      "MyLLama lagrer meldingene dine per chatrom for senere gjennomgang."
+    ],
+    "footerNote": "MyLLama er en uavhengig klientapp. Tilgjengeligheten til Ollama og modeller avhenger av serverkonfigurasjonen din."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Alle rettigheter forbeholdt.",
+    "links": {
+      "privacy": "Personvernpolicy"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

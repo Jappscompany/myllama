@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Client de chat Ollama",
+    "description": "Un client de chat léger pour vos propres serveurs Ollama. Enregistrez les conversations par salle et gardez le contrôle de vos modèles."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Politique de confidentialité"
+  },
+  "hero": {
+    "headline": "Discutez avec vos propres serveurs Ollama.",
+    "subheadline": "Enregistrez votre point de terminaison Ollama, discutez avec vos modèles et revisitez les conversations plus tard, organisées par salle de chat.",
+    "primaryCta": "Lire la politique de confidentialité",
+    "secondaryCta": "Voir les fonctionnalités"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Utilisez votre propre URL Ollama",
+        "desc": "Connectez-vous au serveur Ollama que vous utilisez déjà — local, distant ou sur votre réseau local."
+      },
+      {
+        "title": "Salles de chat et historique",
+        "desc": "Les conversations sont enregistrées par salle afin que vous puissiez rapidement les revoir ou continuer là où vous vous êtes arrêté."
+      },
+      {
+        "title": "Points de terminaison multiples",
+        "desc": "Stockez plus d’une adresse de serveur et basculez à tout moment."
+      },
+      {
+        "title": "Interface utilisateur propre et ciblée",
+        "desc": "Interface minimale conçue pour la productivité."
+      }
+    ],
+    "howTitle": "Fonctionnement",
+    "howSteps": [
+      "Ajoutez l’adresse de votre serveur Ollama (URL).",
+      "Démarrez une conversation et choisissez votre modèle sur le serveur.",
+      "MyLLama enregistre vos messages par salle de chat pour une consultation ultérieure."
+    ],
+    "footerNote": "MyLLama est une application cliente indépendante. La disponibilité d’Ollama et des modèles dépend de la configuration de votre serveur."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Tous droits réservés.",
+    "links": {
+      "privacy": "Politique de confidentialité"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama 聊天客戶端",
+    "description": "一個輕量級的聊天客戶端，適用於您自己的 Ollama 伺服器。按房間保存對話，並掌控您的模型。"
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "隱私權政策"
+  },
+  "hero": {
+    "headline": "與您自己的 Ollama 伺服器聊天。",
+    "subheadline": "註冊您的 Ollama 端點，與您的模型交談，稍後再查看對話 — 按聊天室組織。",
+    "primaryCta": "閱讀隱私權政策",
+    "secondaryCta": "查看功能"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "使用您自己的 Ollama URL",
+        "desc": "連接到您已經運行的 Ollama 伺服器 — 本地、遠端或在您的 LAN 上。"
+      },
+      {
+        "title": "聊天室和歷史記錄",
+        "desc": "對話按房間保存，以便您可以快速回顧或從上次停止的地方繼續。"
+      },
+      {
+        "title": "多個端點",
+        "desc": "儲存多個伺服器地址並隨時切換。"
+      },
+      {
+        "title": "簡潔的專注 UI",
+        "desc": "專為提高工作效率而設計的簡潔介面。"
+      }
+    ],
+    "howTitle": "運作方式",
+    "howSteps": [
+      "新增您的 Ollama 伺服器地址（URL）。",
+      "開始聊天並選擇您在伺服器上的模型。",
+      "MyLLama 會將您的訊息按聊天室保存，以便稍後回顧。"
+    ],
+    "footerNote": "MyLLama 是一個獨立的客戶端應用程式。Ollama 和模型的可用性取決於您的伺服器配置。"
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. 版權所有。",
+    "links": {
+      "privacy": "隱私權政策"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

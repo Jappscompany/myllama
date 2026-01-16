@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Client di chat Ollama",
+    "description": "Un client di chat leggero per i tuoi server Ollama. Salva le conversazioni per stanza e mantieni il controllo dei tuoi modelli."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Informativa sulla privacy"
+  },
+  "hero": {
+    "headline": "Chatta con i tuoi server Ollama.",
+    "subheadline": "Registra il tuo endpoint Ollama, parla con i tuoi modelli e rivisita le conversazioni in seguito, organizzate per chat room.",
+    "primaryCta": "Leggi l'informativa sulla privacy",
+    "secondaryCta": "Visualizza le funzionalità"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Porta il tuo URL Ollama",
+        "desc": "Connettiti al server Ollama che gestisci già: locale, remoto o sulla tua LAN."
+      },
+      {
+        "title": "Chat room e cronologia",
+        "desc": "Le conversazioni vengono salvate per stanza in modo da poterle rivedere rapidamente o continuare da dove ti sei interrotto."
+      },
+      {
+        "title": "Endpoint multipli",
+        "desc": "Memorizza più di un indirizzo server e cambia in qualsiasi momento."
+      },
+      {
+        "title": "Interfaccia utente pulita e focalizzata",
+        "desc": "Interfaccia minimalista progettata per la produttività."
+      }
+    ],
+    "howTitle": "Come funziona",
+    "howSteps": [
+      "Aggiungi l'indirizzo del tuo server Ollama (URL).",
+      "Avvia una chat e scegli il tuo modello sul server.",
+      "MyLLama salva i tuoi messaggi per chat room per una successiva revisione."
+    ],
+    "footerNote": "MyLLama è un'app client indipendente. La disponibilità di Ollama e dei modelli dipende dalla configurazione del tuo server."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Tutti i diritti riservati.",
+    "links": {
+      "privacy": "Informativa sulla privacy"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

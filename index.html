@@ -63,6 +63,13 @@
       padding:8px 10px; outline:none;
     }
     option{color:#000}
+    .sr-only{
+      position:absolute !important;
+      width:1px; height:1px;
+      padding:0; margin:-1px;
+      overflow:hidden; clip:rect(0,0,0,0);
+      white-space:nowrap; border:0;
+    }
     .hero{
       margin-top:18px;
       padding:34px 18px;
@@ -153,10 +160,48 @@
           <a href="index.html" id="nav-home">Home</a>
           <a href="privacy.html" id="nav-privacy">Privacy Policy</a>
         </div>
-        <label class="small" for="lang" id="i18n-label">Language</label>
+                <label class="small" for="lang" id="i18n-label">Language</label>
         <select id="lang" aria-label="Language">
-          <option value="en" selected>English</option>
+          <option value="en" selected>en</option><option value="ko">ko</option><option value="uk">uk</option><option value="ar">ar</option><option value="ca">ca</option><option value="zh-Hans">zh-Hans</option><option value="zh-Hant">zh-Hant</option><option value="hr">hr</option><option value="cs">cs</option><option value="da">da</option><option value="nl">nl</option><option value="fi">fi</option><option value="fr">fr</option><option value="de">de</option><option value="el">el</option><option value="fr-CA">fr-CA</option><option value="he">he</option><option value="hi">hi</option><option value="hu">hu</option><option value="id">id</option><option value="it">it</option><option value="ja">ja</option><option value="ms">ms</option><option value="nb">nb</option><option value="pl">pl</option><option value="pt-BR">pt-BR</option><option value="pt-PT">pt-PT</option><option value="ro">ro</option><option value="ru">ru</option><option value="sk">sk</option><option value="es-MX">es-MX</option><option value="es">es</option><option value="sv">sv</option><option value="th">th</option><option value="tr">tr</option><option value="vi">vi</option>
         </select>
+        <div class="sr-only" id="lang-buttons" aria-hidden="true">
+          <button type="button" class="sr-only" data-lang-btn="en" aria-pressed="true">en</button>
+          <button type="button" class="sr-only" data-lang-btn="ko" aria-pressed="false">ko</button>
+          <button type="button" class="sr-only" data-lang-btn="uk" aria-pressed="false">uk</button>
+          <button type="button" class="sr-only" data-lang-btn="ar" aria-pressed="false">ar</button>
+          <button type="button" class="sr-only" data-lang-btn="ca" aria-pressed="false">ca</button>
+          <button type="button" class="sr-only" data-lang-btn="zh-Hans" aria-pressed="false">zh-Hans</button>
+          <button type="button" class="sr-only" data-lang-btn="zh-Hant" aria-pressed="false">zh-Hant</button>
+          <button type="button" class="sr-only" data-lang-btn="hr" aria-pressed="false">hr</button>
+          <button type="button" class="sr-only" data-lang-btn="cs" aria-pressed="false">cs</button>
+          <button type="button" class="sr-only" data-lang-btn="da" aria-pressed="false">da</button>
+          <button type="button" class="sr-only" data-lang-btn="nl" aria-pressed="false">nl</button>
+          <button type="button" class="sr-only" data-lang-btn="fi" aria-pressed="false">fi</button>
+          <button type="button" class="sr-only" data-lang-btn="fr" aria-pressed="false">fr</button>
+          <button type="button" class="sr-only" data-lang-btn="de" aria-pressed="false">de</button>
+          <button type="button" class="sr-only" data-lang-btn="el" aria-pressed="false">el</button>
+          <button type="button" class="sr-only" data-lang-btn="fr-CA" aria-pressed="false">fr-CA</button>
+          <button type="button" class="sr-only" data-lang-btn="he" aria-pressed="false">he</button>
+          <button type="button" class="sr-only" data-lang-btn="hi" aria-pressed="false">hi</button>
+          <button type="button" class="sr-only" data-lang-btn="hu" aria-pressed="false">hu</button>
+          <button type="button" class="sr-only" data-lang-btn="id" aria-pressed="false">id</button>
+          <button type="button" class="sr-only" data-lang-btn="it" aria-pressed="false">it</button>
+          <button type="button" class="sr-only" data-lang-btn="ja" aria-pressed="false">ja</button>
+          <button type="button" class="sr-only" data-lang-btn="ms" aria-pressed="false">ms</button>
+          <button type="button" class="sr-only" data-lang-btn="nb" aria-pressed="false">nb</button>
+          <button type="button" class="sr-only" data-lang-btn="pl" aria-pressed="false">pl</button>
+          <button type="button" class="sr-only" data-lang-btn="pt-BR" aria-pressed="false">pt-BR</button>
+          <button type="button" class="sr-only" data-lang-btn="pt-PT" aria-pressed="false">pt-PT</button>
+          <button type="button" class="sr-only" data-lang-btn="ro" aria-pressed="false">ro</button>
+          <button type="button" class="sr-only" data-lang-btn="ru" aria-pressed="false">ru</button>
+          <button type="button" class="sr-only" data-lang-btn="sk" aria-pressed="false">sk</button>
+          <button type="button" class="sr-only" data-lang-btn="es-MX" aria-pressed="false">es-MX</button>
+          <button type="button" class="sr-only" data-lang-btn="es" aria-pressed="false">es</button>
+          <button type="button" class="sr-only" data-lang-btn="sv" aria-pressed="false">sv</button>
+          <button type="button" class="sr-only" data-lang-btn="th" aria-pressed="false">th</button>
+          <button type="button" class="sr-only" data-lang-btn="tr" aria-pressed="false">tr</button>
+          <button type="button" class="sr-only" data-lang-btn="vi" aria-pressed="false">vi</button>
+        </div>
       </div>
     </div>
 
@@ -196,12 +241,33 @@
     </footer>
   </div>
 
-  <script>
+    <script>
+    const SUPPORTED_LANGS = ["en", "ko", "uk", "ar", "ca", "zh-Hans", "zh-Hant", "hr", "cs", "da", "nl", "fi", "fr", "de", "el", "fr-CA", "he", "hi", "hu", "id", "it", "ja", "ms", "nb", "pl", "pt-BR", "pt-PT", "ro", "ru", "sk", "es-MX", "es", "sv", "th", "tr", "vi"];
     const DEFAULT_LANG = "en";
+    const RTL_LANGS = new Set(["ar","he"]);
+
+    function getUrlLang(){
+      const p = new URLSearchParams(window.location.search);
+      return p.get("lang");
+    }
+
+    function setUrlLang(lang){
+      const url = new URL(window.location.href);
+      url.searchParams.set("lang", lang);
+      window.history.replaceState({}, "", url.toString());
+    }
+
+    function getStoredLang(){
+      try { return localStorage.getItem("myllama_lang"); } catch(e) { return null; }
+    }
+
+    function storeLang(lang){
+      try { localStorage.setItem("myllama_lang", lang); } catch(e) {}
+    }
 
     async function loadLang(lang){
       const res = await fetch(`i18n/${lang}.json`, {cache: "no-store"});
-      if(!res.ok) throw new Error("Failed to load i18n JSON");
+      if(!res.ok) throw new Error("Failed to load i18n JSON: " + lang);
       return await res.json();
     }
 
@@ -210,15 +276,28 @@
       if(el) el.textContent = text;
     }
 
-    function applyI18n(data){
-      // meta
-      document.documentElement.lang = "en";
-      setText("meta-title", data.meta?.title || "MyLLama");
-      document.title = data.meta?.title || "MyLLama";
+    function setPressedButtons(activeLang){
+      document.querySelectorAll("[data-lang-btn]").forEach(btn => {
+        const lang = btn.getAttribute("data-lang-btn");
+        btn.setAttribute("aria-pressed", lang === activeLang ? "true" : "false");
+      });
+    }
+
+    function setDocumentDir(lang){
+      const isRtl = RTL_LANGS.has(lang);
+      document.documentElement.dir = isRtl ? "rtl" : "ltr";
+      document.documentElement.lang = lang;
+    }
+
+    function applyI18n(lang, data){
+      setDocumentDir(lang);
+
+      const title = data.meta?.title || "MyLLama";
+      document.title = title;
+      setText("meta-title", title);
       const md = document.getElementById("meta-description");
       if(md) md.setAttribute("content", data.meta?.description || "");
 
-      // nav + hero
       setText("nav-brand", data.nav?.brand || "MyLLama");
       setText("nav-home", data.nav?.home || "Home");
       setText("nav-privacy", data.nav?.privacy || "Privacy Policy");
@@ -230,7 +309,6 @@
 
       setText("features-title", data.sections?.featuresTitle || "Features");
 
-      // features cards
       const grid = document.getElementById("features-grid");
       grid.innerHTML = "";
       (data.sections?.features || []).forEach(f => {
@@ -257,25 +335,77 @@
       setText("footer-note", data.sections?.footerNote || "");
 
       const year = new Date().getFullYear();
-      const copyright = (data.footer?.copyright || "").replace("{year}", year);
-      setText("copyright", copyright || `© ${year} MyLLama. All rights reserved.`);
+      const copyrightTpl = data.footer?.copyright || "© {year} MyLLama. All rights reserved.";
+      setText("copyright", copyrightTpl.replace("{year}", year));
       setText("footer-privacy", data.footer?.links?.privacy || "Privacy Policy");
 
       setText("i18n-label", data.i18n?.label || "Language");
-      // language option label (only en exists for now)
+
+      // If your per-language JSON includes i18n.<code> labels, use them as option text; otherwise show code.
       const langSelect = document.getElementById("lang");
-      const opt = langSelect.querySelector('option[value="en"]');
-      if(opt) opt.textContent = data.i18n?.en || "English";
+      if(langSelect){
+        SUPPORTED_LANGS.forEach(code => {
+          const opt = langSelect.querySelector(`option[value="${code}"]`);
+          if(opt){
+            const label = data.i18n?.[code] || (code === "en" ? (data.i18n?.en || "English") : code);
+            opt.textContent = label;
+          }
+        });
+      }
+    }
+
+    async function setLanguage(lang){
+      const normalized = SUPPORTED_LANGS.includes(lang) ? lang : DEFAULT_LANG;
+      const select = document.getElementById("lang");
+      if(select) select.value = normalized;
+      setPressedButtons(normalized);
+      setUrlLang(normalized);
+      storeLang(normalized);
+
+      try{
+        const data = await loadLang(normalized);
+        applyI18n(normalized, data);
+      } catch(e){
+        console.warn(e);
+        if(normalized !== DEFAULT_LANG){
+          try{
+            const data = await loadLang(DEFAULT_LANG);
+            applyI18n(DEFAULT_LANG, data);
+          } catch(e2){
+            console.error(e2);
+          }
+        }
+      }
+    }
+
+    function initialLang(){
+      const urlLang = getUrlLang();
+      if(urlLang) return urlLang;
+      const stored = getStoredLang();
+      if(stored) return stored;
+
+      const nav = (navigator.language || "").trim();
+      if(SUPPORTED_LANGS.includes(nav)) return nav;
+      const base = nav.split("-")[0];
+      if(SUPPORTED_LANGS.includes(base)) return base;
+      return DEFAULT_LANG;
     }
 
     (async () => {
-      const lang = DEFAULT_LANG;
-      try{
-        const data = await loadLang(lang);
-        applyI18n(data);
-      } catch(e){
-        console.error(e);
+      const lang = initialLang();
+      const select = document.getElementById("lang");
+      if(select){
+        select.addEventListener("change", (e) => {
+          setLanguage(e.target.value);
+        });
       }
+
+      // Optional hidden button control (same pattern you used before)
+      document.querySelectorAll("[data-lang-btn]").forEach(btn => {
+        btn.addEventListener("click", () => setLanguage(btn.getAttribute("data-lang-btn")));
+      });
+
+      await setLanguage(lang);
     })();
   </script>
 </body>

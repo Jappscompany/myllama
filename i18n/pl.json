@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Klient czatu Ollama",
+    "description": "Lekki klient czatu dla Twoich własnych serwerów Ollama. Zapisuj rozmowy według pokoju i zachowaj kontrolę nad swoimi modelami."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Polityka prywatności"
+  },
+  "hero": {
+    "headline": "Czatuj ze swoimi serwerami Ollama.",
+    "subheadline": "Zarejestruj swój punkt końcowy Ollama, rozmawiaj ze swoimi modelami i wracaj do rozmów później — uporządkowanych według pokoju czatu.",
+    "primaryCta": "Przeczytaj Politykę prywatności",
+    "secondaryCta": "Zobacz funkcje"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Użyj własnego adresu URL Ollama",
+        "desc": "Połącz się z serwerem Ollama, który już uruchomiłeś — lokalnie, zdalnie lub w swojej sieci LAN."
+      },
+      {
+        "title": "Pokoje czatu i historia",
+        "desc": "Rozmowy są zapisywane według pokoju, dzięki czemu możesz szybko przejrzeć lub kontynuować od miejsca, w którym skończyłeś."
+      },
+      {
+        "title": "Wiele punktów końcowych",
+        "desc": "Przechowuj więcej niż jeden adres serwera i przełączaj się w dowolnym momencie."
+      },
+      {
+        "title": "Czysty, skoncentrowany interfejs użytkownika",
+        "desc": "Minimalistyczny interfejs zaprojektowany z myślą o produktywności."
+      }
+    ],
+    "howTitle": "Jak to działa",
+    "howSteps": [
+      "Dodaj adres swojego serwera Ollama (URL).",
+      "Rozpocznij czat i wybierz swój model na serwerze.",
+      "MyLLama zapisuje Twoje wiadomości dla każdego pokoju czatu do późniejszego przeglądania."
+    ],
+    "footerNote": "MyLLama to niezależna aplikacja kliencka. Dostępność Ollama i modeli zależy od konfiguracji Twojego serwera."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Wszelkie prawa zastrzeżone.",
+    "links": {
+      "privacy": "Polityka prywatności"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

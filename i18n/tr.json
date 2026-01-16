@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama Sohbet İstemcisi",
+    "description": "Kendi Ollama sunucularınız için hafif bir sohbet istemcisi. Sohbetleri odaya göre kaydedin ve modellerinizin kontrolünü elinizde tutun."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Gizlilik Politikası"
+  },
+  "hero": {
+    "headline": "Kendi Ollama sunucularınızla sohbet edin.",
+    "subheadline": "Ollama uç noktanızı kaydedin, modellerinizle konuşun ve sohbetleri daha sonra, sohbet odalarına göre düzenlenmiş olarak tekrar ziyaret edin.",
+    "primaryCta": "Gizlilik Politikasını Oku",
+    "secondaryCta": "Özellikleri Görüntüle"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Kendi Ollama URL'nizi Getirin",
+        "desc": "Zaten çalıştırdığınız Ollama sunucusuna bağlanın—yerel, uzak veya LAN'ınızda."
+      },
+      {
+        "title": "Sohbet odaları ve geçmiş",
+        "desc": "Konuşmalar odaya göre kaydedilir, böylece hızlıca gözden geçirebilir veya bıraktığınız yerden devam edebilirsiniz."
+      },
+      {
+        "title": "Çoklu uç noktalar",
+        "desc": "Birden fazla sunucu adresi kaydedin ve istediğiniz zaman geçiş yapın."
+      },
+      {
+        "title": "Temiz, odaklanmış UI",
+        "desc": "Verimlilik için tasarlanmış minimalist arayüz."
+      }
+    ],
+    "howTitle": "Nasıl çalışır",
+    "howSteps": [
+      "Ollama sunucu adresinizi (URL) ekleyin.",
+      "Bir sohbet başlatın ve sunucudaki modelinizi seçin.",
+      "MyLLama, mesajlarınızı daha sonra gözden geçirmek için her sohbet odası için kaydeder."
+    ],
+    "footerNote": "MyLLama bağımsız bir istemci uygulamasıdır. Ollama ve model kullanılabilirliği sunucu yapılandırmanıza bağlıdır."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Tüm hakları saklıdır.",
+    "links": {
+      "privacy": "Gizlilik Politikası"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

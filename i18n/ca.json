@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Client de xat d'Ollama",
+    "description": "Un client de xat lleuger per als teus propis servidors Ollama. Desa les converses per sala i mantén el control dels teus models."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Política de privadesa"
+  },
+  "hero": {
+    "headline": "Xateja amb els teus propis servidors Ollama.",
+    "subheadline": "Registra el teu punt final d'Ollama, xateja amb els teus models i revisita les converses més endavant, organitzades per sala de xat.",
+    "primaryCta": "Llegeix la política de privadesa",
+    "secondaryCta": "Ves les funcionalitats"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Porta la teva pròpia URL d'Ollama",
+        "desc": "Connecta't al servidor Ollama que ja executes: local, remot o a la teva LAN."
+      },
+      {
+        "title": "Sales de xat i historial",
+        "desc": "Les converses es guarden per sala perquè puguis revisar-les ràpidament o continuar on ho havies deixat."
+      },
+      {
+        "title": "Múltiples punts finals",
+        "desc": "Emmagatzema més d'una adreça de servidor i canvia en qualsevol moment."
+      },
+      {
+        "title": "Interfície d'usuari neta i enfocada",
+        "desc": "Interfície mínima dissenyada per a la productivitat."
+      }
+    ],
+    "howTitle": "Com funciona",
+    "howSteps": [
+      "Afegeix l'adreça del teu servidor Ollama (URL).",
+      "Comença un xat i tria el teu model al servidor.",
+      "MyLLama desa els teus missatges per a cada sala de xat per a una revisió posterior."
+    ],
+    "footerNote": "MyLLama és una aplicació client independent. La disponibilitat d'Ollama i dels models depèn de la configuració del teu servidor."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Tots els drets reservats.",
+    "links": {
+      "privacy": "Política de privadesa"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

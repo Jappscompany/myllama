@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Klien Semogak Ollama",
+    "description": "Klien semogak yang ringan untuk pelayan Ollama anda. Simpan perbualan mengikut bilik dan kekalkan kawalan model anda."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Dasar Privasi"
+  },
+  "hero": {
+    "headline": "Berbual dengan pelayan Ollama anda.",
+    "subheadline": "Daftar titik akhir Ollama anda, berbual dengan model anda, dan lawati semula perbualan kemudian—diatur mengikut bilik semogak.",
+    "primaryCta": "Baca Dasar Privasi",
+    "secondaryCta": "Lihat Ciri-ciri"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Bawa URL Ollama anda sendiri",
+        "desc": "Sambung ke pelayan Ollama yang anda sudah jalankan—tempatan, jauh atau pada LAN anda."
+      },
+      {
+        "title": "Bilik semogak & sejarah",
+        "desc": "Perbualan disimpan mengikut bilik supaya anda dapat menyemak atau meneruskan di mana anda berhenti dengan cepat."
+      },
+      {
+        "title": "Titik akhir berganda",
+        "desc": "Simpan lebih daripada satu alamat pelayan dan tukar pada bila-bila masa."
+      },
+      {
+        "title": "UI yang bersih dan fokus",
+        "desc": "Antaramuka minimal yang direka untuk produktiviti."
+      }
+    ],
+    "howTitle": "Cara ia berfungsi",
+    "howSteps": [
+      "Tambahkan alamat pelayan Ollama anda (URL).",
+      "Mulakan semogak dan pilih model anda pada pelayan.",
+      "MyLLama menyimpan mesej anda setiap bilik semogak untuk semakan kemudian."
+    ],
+    "footerNote": "MyLLama ialah aplikasi klien bebas. Ketersediaan Ollama dan model bergantung pada konfigurasi pelayan anda."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Hak cipta terpelihara.",
+    "links": {
+      "privacy": "Dasar Privasi"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

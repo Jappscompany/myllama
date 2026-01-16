@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama Chat Client",
+    "description": "Lagani klijent za chat za vaše vlastite Ollama poslužitelje. Spremajte razgovore po sobama i zadržite kontrolu nad svojim modelima."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Politika privatnosti"
+  },
+  "hero": {
+    "headline": "Razgovarajte sa svojim Ollama poslužiteljima.",
+    "subheadline": "Registrirajte svoj Ollama krajnju točku, razgovarajte sa svojim modelima i ponovo posjetite razgovore kasnije — organizirane po sobama za razgovor.",
+    "primaryCta": "Pročitajte Politiku privatnosti",
+    "secondaryCta": "Pregledajte značajke"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Donesite vlastitu Ollama URL adresu",
+        "desc": "Povežite se na Ollama poslužitelj koji već pokrećete — lokalno, udaljeno ili u vašoj LAN mreži."
+      },
+      {
+        "title": "Sobe za razgovor i povijest",
+        "desc": "Razgovori se spremaju po sobama kako biste mogli brzo pregledati ili nastaviti odakle ste stali."
+      },
+      {
+        "title": "Više krajnjih točaka",
+        "desc": "Spremite više od jedne poslužiteljske adrese i prebacujte se bilo kada."
+      },
+      {
+        "title": "Čist, usredotočen korisnički sučelje",
+        "desc": "Minimalističko sučelje dizajnirano za produktivnost."
+      }
+    ],
+    "howTitle": "Kako radi",
+    "howSteps": [
+      "Dodajte adresu svog Ollama poslužitelja (URL).",
+      "Pokrenite chat i odaberite svoj model na poslužitelju.",
+      "MyLLama sprema vaše poruke po sobama za razgovor za kasniji pregled."
+    ],
+    "footerNote": "MyLLama je neovisna klijentska aplikacija. Dostupnost Ollame i modela ovisi o konfiguraciji vašeg poslužitelja."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Sva prava pridržana.",
+    "links": {
+      "privacy": "Politika privatnosti"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

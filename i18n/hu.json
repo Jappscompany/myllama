@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama Chat Ügyfél",
+    "description": "Egy könnyű chat ügyfél a saját Ollama szervereihez. Mentse a beszélgetéseket szobánként, és irányítsa a modelljeit."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Adatvédelmi szabályzat"
+  },
+  "hero": {
+    "headline": "Csevegjen a saját Ollama szervereivel.",
+    "subheadline": "Regisztrálja az Ollama végpontját, beszélgessen a modelljeivel, és tekintse át a beszélgetéseket később — csevegőszobák szerint rendezve.",
+    "primaryCta": "Olvassa el az adatvédelmi szabályzatot",
+    "secondaryCta": "Nézze meg a funkciókat"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Hozza el a saját Ollama URL-jét",
+        "desc": "Csatlakozzon a már futó Ollama szerveréhez — helyi, távoli vagy a LAN-ján."
+      },
+      {
+        "title": "Csevegőszobák és előzmények",
+        "desc": "A beszélgetések szobánként kerülnek mentésre, így gyorsan áttekintheti vagy folytathatja a megszakadt beszélgetést."
+      },
+      {
+        "title": "Több végpont",
+        "desc": "Tároljon több szervercímet, és bármikor váltson."
+      },
+      {
+        "title": "Tiszta, fókuszált felhasználói felület",
+        "desc": "Minimalista felület a produktivitás érdekében."
+      }
+    ],
+    "howTitle": "Hogyan működik",
+    "howSteps": [
+      "Adja hozzá az Ollama szerver címét (URL-t).",
+      "Indítson egy csevegést, és válassza ki a modellt a szerveren.",
+      "A MyLLama a üzeneteket csevegőszobánként menti a későbbi áttekintéshez."
+    ],
+    "footerNote": "A MyLLama egy független ügyfélalkalmazás. Az Ollama és a modell elérhetősége a szerver konfigurációjától függ."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Minden jog fenntartva.",
+    "links": {
+      "privacy": "Adatvédelmi szabályzat"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

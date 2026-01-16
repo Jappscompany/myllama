@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama Chat Client",
+    "description": "Een lichtgewicht chatclient voor uw eigen Ollama-servers. Sla gesprekken op per ruimte en behoud de controle over uw modellen."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Privacybeleid"
+  },
+  "hero": {
+    "headline": "Chat met uw eigen Ollama-servers.",
+    "subheadline": "Registreer uw Ollama-endpoint, praat met uw modellen en bezoek gesprekken later opnieuw—georganiseerd per chatroom.",
+    "primaryCta": "Lees Privacybeleid",
+    "secondaryCta": "Bekijk functies"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Gebruik uw eigen Ollama URL",
+        "desc": "Maak verbinding met de Ollama-server die u al uitvoert—lokaal, extern of op uw LAN."
+      },
+      {
+        "title": "Chatrooms en geschiedenis",
+        "desc": "Gesprekken worden per ruimte opgeslagen, zodat u ze snel kunt bekijken of verdergaan waar u was gebleven."
+      },
+      {
+        "title": "Meerdere endpoints",
+        "desc": "Sla meer dan één serveradres op en schakel op elk moment."
+      },
+      {
+        "title": "Schone, overzichtelijke UI",
+        "desc": "Minimale interface ontworpen voor productiviteit."
+      }
+    ],
+    "howTitle": "Hoe het werkt",
+    "howSteps": [
+      "Voeg uw Ollama-serveradres (URL) toe.",
+      "Start een chat en kies uw model op de server.",
+      "MyLLama slaat uw berichten per chatroom op voor later overzicht."
+    ],
+    "footerNote": "MyLLama is een onafhankelijke clientapp. De beschikbaarheid van Ollama en modellen is afhankelijk van uw serverconfiguratie."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Alle rechten voorbehouden.",
+    "links": {
+      "privacy": "Privacybeleid"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

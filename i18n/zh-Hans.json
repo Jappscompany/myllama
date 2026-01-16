@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ollama 聊天客户端",
+    "description": "适用于您自己的 Ollama 服务器的轻量级聊天客户端。按房间保存对话，并控制您的模型。"
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "隐私政策"
+  },
+  "hero": {
+    "headline": "与您自己的 Ollama 服务器聊天。",
+    "subheadline": "注册您的 Ollama 端点，与您的模型对话，并稍后重新访问对话——按聊天室组织。",
+    "primaryCta": "阅读隐私政策",
+    "secondaryCta": "查看功能"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "使用您自己的 Ollama URL",
+        "desc": "连接到您已经运行的 Ollama 服务器——本地、远程或在您的局域网中。"
+      },
+      {
+        "title": "聊天室和历史记录",
+        "desc": "对话按房间保存，以便您可以快速查看或从上次停止的地方继续。"
+      },
+      {
+        "title": "多个端点",
+        "desc": "存储多个服务器地址并随时切换。"
+      },
+      {
+        "title": "简洁、专注的 UI",
+        "desc": "为提高工作效率而设计的极简界面。"
+      }
+    ],
+    "howTitle": "工作原理",
+    "howSteps": [
+      "添加您的 Ollama 服务器地址 (URL)。",
+      "开始聊天并选择服务器上的模型。",
+      "MyLLama 会按聊天室保存您的消息，以便以后查看。"
+    ],
+    "footerNote": "MyLLama 是一个独立的客户端应用程序。Ollama 和模型的可用性取决于您的服务器配置。"
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama。保留所有权利。",
+    "links": {
+      "privacy": "隐私政策"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

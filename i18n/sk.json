@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Chatovací klient Ollama",
+    "description": "Ľahký chatovací klient pre vaše vlastné servery Ollama. Uložte si konverzácie podľa miestností a majte kontrolu nad svojimi modelmi."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Zásady ochrany osobných údajov"
+  },
+  "hero": {
+    "headline": "Chatujte so svojimi servermi Ollama.",
+    "subheadline": "Zaregistrujte svoj Ollama endpoint, komunikujte so svojimi modelmi a znovu navštívte konverzácie neskôr — usporiadané podľa chatovacej miestnosti.",
+    "primaryCta": "Prečítajte si zásady ochrany osobných údajov",
+    "secondaryCta": "Pozrite si funkcie"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Prineste si vlastnú URL adresu Ollama",
+        "desc": "Pripojte sa k serveru Ollama, ktorý už spúšťate - lokálne, vzdialene alebo vo vašej LAN."
+      },
+      {
+        "title": "Chatovacie miestnosti a história",
+        "desc": "Konverzácie sú uložené podľa miestností, takže si ich môžete rýchlo prezrieť alebo pokračovať tam, kde ste prestali."
+      },
+      {
+        "title": "Viacero endpointov",
+        "desc": "Uložte si viac ako jednu serverovú adresu a prepínajte kedykoľvek."
+      },
+      {
+        "title": "Čisté, zamerané používateľské rozhranie",
+        "desc": "Minimálne rozhranie navrhnuté pre produktivitu."
+      }
+    ],
+    "howTitle": "Ako to funguje",
+    "howSteps": [
+      "Pridajte adresu svojho servera Ollama (URL).",
+      "Spustite chat a vyberte si model na serveri.",
+      "MyLLama ukladá vaše správy pre každú chatovaciu miestnosť na neskoršie prezeranie."
+    ],
+    "footerNote": "MyLLama je nezávislá klientska aplikácia. Dostupnosť Ollama a modelov závisí od konfigurácie vášho servera."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Všetky práva vyhradené.",
+    "links": {
+      "privacy": "Zásady ochrany osobných údajov"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Klien Obrolan Ollama",
+    "description": "Klien obrolan ringan untuk server Ollama Anda sendiri. Simpan percakapan berdasarkan ruangan dan kendalikan model Anda."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Kebijakan Privasi"
+  },
+  "hero": {
+    "headline": "Ngobrol dengan server Ollama Anda sendiri.",
+    "subheadline": "Daftarkan titik akhir Ollama Anda, bicaralah dengan model Anda, dan kunjungi kembali percakapan nanti — diatur berdasarkan ruang obrolan.",
+    "primaryCta": "Baca Kebijakan Privasi",
+    "secondaryCta": "Lihat Fitur"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Gunakan URL Ollama Anda Sendiri",
+        "desc": "Terhubung ke server Ollama yang sudah Anda jalankan—lokal, jarak jauh, atau di LAN Anda."
+      },
+      {
+        "title": "Ruang obrolan & riwayat",
+        "desc": "Percakapan disimpan berdasarkan ruangan sehingga Anda dapat dengan cepat meninjau atau melanjutkan dari tempat Anda berhenti."
+      },
+      {
+        "title": "Titik akhir ganda",
+        "desc": "Simpan lebih dari satu alamat server dan beralih kapan saja."
+      },
+      {
+        "title": "UI bersih & fokus",
+        "desc": "Antarmuka minimalis yang dirancang untuk produktivitas."
+      }
+    ],
+    "howTitle": "Cara kerjanya",
+    "howSteps": [
+      "Tambahkan alamat server Ollama Anda (URL).",
+      "Mulai obrolan dan pilih model Anda di server.",
+      "MyLLama menyimpan pesan Anda per ruang obrolan untuk ditinjau nanti."
+    ],
+    "footerNote": "MyLLama adalah aplikasi klien independen. Ketersediaan Ollama dan model bergantung pada konfigurasi server Anda."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Semua hak dilindungi.",
+    "links": {
+      "privacy": "Kebijakan Privasi"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

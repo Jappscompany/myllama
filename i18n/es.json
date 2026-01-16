@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Cliente de chat de Ollama",
+    "description": "Un cliente de chat ligero para tus propios servidores de Ollama. Guarda las conversaciones por sala y mantén el control de tus modelos."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Política de privacidad"
+  },
+  "hero": {
+    "headline": "Chatea con tus propios servidores de Ollama.",
+    "subheadline": "Registra tu punto final de Ollama, habla con tus modelos y vuelve a visitar las conversaciones más adelante, organizadas por sala de chat.",
+    "primaryCta": "Leer la Política de privacidad",
+    "secondaryCta": "Ver características"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Trae tu propia URL de Ollama",
+        "desc": "Conéctate al servidor de Ollama que ya estás ejecutando: local, remoto o en tu LAN."
+      },
+      {
+        "title": "Salas de chat e historial",
+        "desc": "Las conversaciones se guardan por sala para que puedas revisarlas rápidamente o continuar donde lo dejaste."
+      },
+      {
+        "title": "Múltiples puntos finales",
+        "desc": "Guarda más de una dirección de servidor y cambia en cualquier momento."
+      },
+      {
+        "title": "UI limpia y enfocada",
+        "desc": "Interfaz mínima diseñada para la productividad."
+      }
+    ],
+    "howTitle": "Cómo funciona",
+    "howSteps": [
+      "Agrega la dirección de tu servidor de Ollama (URL).",
+      "Inicia un chat y elige tu modelo en el servidor.",
+      "MyLLama guarda tus mensajes por sala de chat para su revisión posterior."
+    ],
+    "footerNote": "MyLLama es una aplicación cliente independiente. La disponibilidad de Ollama y los modelos depende de la configuración de tu servidor."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Todos los derechos reservados.",
+    "links": {
+      "privacy": "Política de privacidad"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "MyLLama — Ứng dụng Chat Ollama",
+    "description": "Một ứng dụng chat nhẹ dành cho các máy chủ Ollama của bạn. Lưu các cuộc hội thoại theo phòng và kiểm soát các mô hình của bạn."
+  },
+  "nav": {
+    "brand": "MyLLama",
+    "home": "Home",
+    "privacy": "Chính sách bảo mật"
+  },
+  "hero": {
+    "headline": "Chat với các máy chủ Ollama của bạn.",
+    "subheadline": "Đăng ký điểm cuối Ollama của bạn, trò chuyện với các mô hình của bạn và xem lại các cuộc hội thoại sau này—được sắp xếp theo phòng chat.",
+    "primaryCta": "Đọc Chính sách bảo mật",
+    "secondaryCta": "Xem các tính năng"
+  },
+  "sections": {
+    "featuresTitle": "Features",
+    "features": [
+      {
+        "title": "Sử dụng URL Ollama của bạn",
+        "desc": "Kết nối với máy chủ Ollama mà bạn đã chạy—cục bộ, từ xa hoặc trên LAN của bạn."
+      },
+      {
+        "title": "Phòng chat & lịch sử",
+        "desc": "Các cuộc hội thoại được lưu theo phòng để bạn có thể nhanh chóng xem lại hoặc tiếp tục từ nơi bạn dừng lại."
+      },
+      {
+        "title": "Nhiều điểm cuối",
+        "desc": "Lưu nhiều địa chỉ máy chủ và chuyển đổi bất cứ lúc nào."
+      },
+      {
+        "title": "Giao diện người dùng sạch sẽ, tập trung",
+        "desc": "Giao diện tối giản được thiết kế để tăng năng suất."
+      }
+    ],
+    "howTitle": "Cách thức hoạt động",
+    "howSteps": [
+      "Thêm địa chỉ máy chủ Ollama của bạn (URL).",
+      "Bắt đầu một cuộc trò chuyện và chọn mô hình của bạn trên máy chủ.",
+      "MyLLama lưu các tin nhắn của bạn cho mỗi phòng chat để xem lại sau."
+    ],
+    "footerNote": "MyLLama là một ứng dụng khách độc lập. Tính khả dụng của Ollama và mô hình phụ thuộc vào cấu hình máy chủ của bạn."
+  },
+  "footer": {
+    "copyright": "© {year} MyLLama. Mọi quyền được bảo lưu.",
+    "links": {
+      "privacy": "Chính sách bảo mật"
+    }
+  },
+  "i18n": {
+    "label": "Language",
+    "en": "English"
+  }
+}
